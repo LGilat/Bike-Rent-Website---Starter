@@ -54,23 +54,24 @@
 
 /* SECTION ULTIMOS COCHES */
 .ultimos-coches {
-    background-color: rgb(226, 226, 226);
-    margin: 20px;
+    background-color: rgb(241, 234, 234);
 }
 
 .fondo-heading {
     background-color: white;
-    width: 100%;
+    width: 65%;
     height: 2.2rem;
     padding: 3.2rem;
+    margin: 0 auto;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .car-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 400px));
     /* Fuerza 3 columnas */
+    justify-content: center;
     gap: 2rem;
     padding: 2rem;
     margin: 0 auto;
