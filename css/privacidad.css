@@ -1,0 +1,8 @@
+.privacidad .heading {
+  margin-bottom: 3rem;
+}
+
+.privacidad h2{
+    font-size: 1.1rem;
+    color: var(--text-color);
+}

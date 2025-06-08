@@ -389,6 +389,35 @@ header {
   transition: 0.3s ease;
 }
 
+/* ------------------------- SECTION PRIVACY ------------------------------*/
+.privacidad {
+  background: #f8f8fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  padding: 100px 0;
+}
+
+.privacidad .heading {
+  margin-bottom: 3rem;
+}
+
+.privacidad .heading span {
+  color: var(--second-color);
+}
+
+.privacidad p {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #666;
+  padding-bottom: 1em;
+}
+
+
+/* --------------------------------------------------------------------------*/
+
 .work .heading {
   align-items: center;
 }

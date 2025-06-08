@@ -70,8 +70,8 @@
         </section>
         <section class="bikes container" id="bikes">
             <div class="heading">
-                <span>LAST MINUTE OFFERS</span>
-                <h2>Motorcycle & Scooters for rent</h2>
+                <span>Ultimas ofertas</span>
+                <h2>Motorcycle & Scooters para vender</h2>
             </div>
             <!-- Bikes Content-->
             <div class="bikes-content"></div>
@@ -200,30 +200,51 @@
             <h3> <span> Necesitas </span>  información?</h3>
             <h3>LLámanos por teléfono o contacta por whatsApp para hablar directamente con nosotros. </h3>
 
-            <form action="#">
+            <form action="https://formsubmit.co/bisauto16@gmail.com"
+                  method="post"
+                  id="tasa-moto-form">
                 <div class="input-box">
-                    <input type="text" placeholder="Nombre">
-                    <input type="email" name="email" id="email" placeholder="Apellidos">
+                    <input type="text" name="nombre" placeholder="Nombre" required>
+                    <input type="text" name="apellidos" placeholder="Apellidos" required>
                 </div>
                 <div class="input-box">
-                    <input type="number" placeholder="Phone number">
-                    <input type="text" placeholder="Mail">
+                    <input type="tel"
+                           name="telefono"
+                           placeholder="Teléfono"
+                           pattern="[0-9]{9}"
+                           required>
+                    <input type="email" name="email" placeholder="Correo electrónico" required>
                 </div>
                 <div class="input-box">
-                    <input type="text" placeholder="Matricula Vehículo">
-                    <input type="date" placeholder="Fecha de matriculación">
+                    <input type="text" name="modelo" placeholder="Modelo de moto" required>
+                    <input type="date"
+                           name="fecha_matriculacion"
+                           placeholder="Fecha de matriculación"
+                           required>
                 </div>
                 <div class="input-box">
-                    <input type="number" placeholder="Kilometros">
-                </div>  
-                
-                <input type="submit" value="Send Me" class="btn">
+                    <input type="number"
+                           name="kilometros"
+                           placeholder="Kilómetros"
+                           min="0"
+                           required>
+                </div>
+                <textarea name="detalles"
+                          cols="30"
+                          rows="10"
+                          placeholder="Mensaje adicional (estado, extras, etc.)"
+                          required></textarea>
+                <!-- Opcional: anti-spam y redirección -->
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://tusitio.com/gracias.html">
+                <input type="hidden" name="_template" value="table">
+                <input type="submit" value="Enviar" class="btn">
             </form>
         </section>
         <section class="reviews" id="reviews">
             <div class="heading container">
-                <span>TESTIMONIALS</span>
-                <h2>Hear it From them</h2>
+                <span>Opiniones</span>
+                <h2>Escúchalas de ellos</h2>
             </div>
             <div class="review-container container">
                 <div class="rev-box">
@@ -295,6 +316,7 @@
             <div class="footer-container container">
                 <div class="footer-box">
                     <a href="#" class="logo">Bike-Rent</a>
+                    <a href="/politicaprivacidad.html">Politica de privacidad</a>
                     <p>See the world, on the wheels.</p>
                     <div class="social">
                         <a href="#"><i class="ri-twitter-x-line"></i></a>
@@ -324,7 +346,7 @@
                     <a href="#">Services</a>
                 </div>
             </div>
-            <p class="copyright">&#169; Bike-Rent LLC</p>
+            <p class="copyright">© Bike-Rent LLC</p>
         </section>
         <!-- Swiper JS -->
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
