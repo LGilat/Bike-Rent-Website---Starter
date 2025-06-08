@@ -59,8 +59,7 @@
 
 .fondo-heading {
     background-color: white;
-    width: 65%;
-    height: 2.2rem;
+    width: 85%;
     padding: 3.2rem;
     margin: 0 auto;
     border-radius: 10px;
@@ -178,7 +177,8 @@
     }
 }
 
-/* Responsive para móviles */
+ /* Responsive para móviles */
+ /*
 @media (max-width: 768px) {
     .contact form .input-box {
         flex-direction: column;
@@ -213,4 +213,4 @@
         text-align: center;
         padding: 0.5rem;
     }
-}
+} */
