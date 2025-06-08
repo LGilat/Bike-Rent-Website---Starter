@@ -21,6 +21,8 @@
   --container-color: #faeee4;
 }
 
+
+
 img {
   width: 100%;
 }
@@ -93,6 +95,28 @@ header {
   color: var(--main-color);
   transition: 0.3s ease 
 }
+
+
+main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+
+.gracias{
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
 
 .sign-up,
 .mobile-sign-up {
